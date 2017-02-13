@@ -6,7 +6,7 @@
 			"name": "crn-viacep",
 			"text": "Via Cep",
 			"class": "cpn cpn-viacep",
-			"templateURL": "${webcontent}/components/templates/viacep.html",
+			"templateURL": "${webcontent}/components/templates/viacep.template.html",
 			"properties": {
 				"onchange": {
 					"removable": true,
