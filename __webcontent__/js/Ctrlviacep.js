@@ -1,5 +1,5 @@
 (function($app) {
-	app.module('app', ['angular.viacep']).controller('ctrl',
+	app.module('app', ['angular.viacep']).controller('viacepctrl',
 			function ctrl($scope) {
 				$scope.address = {
 					zipcode : null,
