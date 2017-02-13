@@ -1,5 +1,4 @@
-(function($app) {
-	app.module('app', ['angular.viacep']).controller('viacepctrl',
+app.controller('viacepctrl',['angular.viacep'],
 			function ctrl($scope) {
 				$scope.address = {
 					zipcode : null,
@@ -9,5 +8,5 @@
 					city : null,
 					unit : null
 				}
-			});
-}(app));
+});
+
