@@ -1,4 +1,4 @@
-app.controller('viacepctrl',['angular.viacep'],
+app.controller('viacepctrl',['angularviacep'],
 			function ctrl($scope) {
 				$scope.address = {
 					zipcode : null,
